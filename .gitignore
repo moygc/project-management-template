@@ -1,0 +1,181 @@
+# ============================================================
+# GITIGNORE — PROJECT REPOSITORY
+# ============================================================
+#
+# General rule:
+#
+#   SOURCE / PROJECT RECORD    -> track
+#   GENERATED / REPRODUCIBLE   -> ignore
+#   TEMPORARY                  -> ignore
+#   LOCAL                      -> ignore
+#   SENSITIVE                  -> never commit
+#
+# Ignore files according to their function in the project,
+# not only according to their file format.
+#
+# Do NOT ignore formats such as *.pdf, *.xlsx, *.docx,
+# *.pptx, *.png, or *.jpg globally. They may contain original
+# or necessary project information.
+# ============================================================
+
+
+# ============================================================
+# 1. IGNORED DIRECTORIES
+# ============================================================
+# Add here complete directories that should not be tracked.
+#
+# Use this only when the entire directory contains local,
+# temporary, sensitive, or reproducible information.
+#
+# Use a trailing slash to make the intention explicit.
+#
+# Examples:
+# scratch/
+# local_data/
+# generated/
+
+
+# ============================================================
+# 2. GENERATED / REPRODUCIBLE FILES
+# ============================================================
+# Add specific generated files or patterns here when they can
+# be reliably reconstructed from versioned project sources.
+#
+# Prefer specific rules instead of ignoring complete formats.
+#
+# Examples:
+# 02_Work/Analysis/generated_plot.png
+# 03_Outputs/generated_report.pdf
+# *_generated.csv
+# *_generated.png
+
+
+# ============================================================
+# 3. TEMPORARY AND BACKUP FILES
+# ============================================================
+# Temporary, backup, swap, and recovery files created by
+# editors and other applications.
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+
+# ============================================================
+# 4. MICROSOFT OFFICE TEMPORARY FILES
+# ============================================================
+# Lock and temporary files created while Word, Excel, or
+# PowerPoint documents are open.
+
+~$*.docx
+~$*.doc
+~$*.xlsx
+~$*.xls
+~$*.pptx
+~$*.ppt
+
+
+# ============================================================
+# 5. LATEX BUILD FILES
+# ============================================================
+# Intermediate and auxiliary files produced automatically
+# during LaTeX compilation.
+#
+# Source files such as *.tex and *.bib are NOT ignored.
+
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex
+*.synctex.gz
+*.blg
+*.bcf
+*.run.xml
+
+
+# ============================================================
+# 6. PYTHON GENERATED FILES
+# ============================================================
+# Python cache and compiled files generated automatically.
+#
+# Python source files and project data are NOT ignored.
+
+__pycache__/
+*.py[cod]
+
+
+# ============================================================
+# 7. LOCAL ENVIRONMENTS
+# ============================================================
+# Machine-specific development environments should not be
+# versioned.
+
+.venv/
+venv/
+
+
+# ============================================================
+# 8. SENSITIVE AND LOCAL CONFIGURATION
+# ============================================================
+# Local environment variables and common secret files.
+#
+# Never commit passwords, API keys, tokens, credentials, or
+# other sensitive information.
+
+.env
+.env.*
+!.env.example
+
+
+# ============================================================
+# 9. EDITOR AND IDE FILES
+# ============================================================
+# Local editor configuration is excluded by default.
+#
+# Remove a rule only if that configuration becomes an
+# intentional and reproducible part of the project.
+
+.vscode/
+.idea/
+
+
+# ============================================================
+# 10. OPERATING SYSTEM FILES
+# ============================================================
+# Metadata files automatically created by operating systems.
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ============================================================
+# 11. PROJECT-SPECIFIC EXCLUSIONS
+# ============================================================
+# Add exceptional files or patterns specific to this project
+# that do not belong to a general category above.
+#
+# Before adding a rule, ask:
+#
+# 1. Is the file generated or reproducible?
+# 2. Is it temporary or machine-specific?
+# 3. Is it sensitive?
+# 4. Would excluding it prevent another person from
+#    understanding, continuing, verifying, or reconstructing
+#    the project?
+#
+# If the answer to question 4 is yes, it should normally
+# remain versioned.
+#
+# Examples:
+# 02_Work/test_results_generated.xlsx
+# 03_Outputs/report_preview.pdf
+# notes_private.md
