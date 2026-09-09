@@ -45,7 +45,7 @@ Project_Name/
 ├── 04_Templates/
 │   ├── project_definition.md
 │   ├── project_plan.md
-│   ├── schedule.md
+│   ├── template_schedule.md
 │   ├── decision_log.md
 │   └── project_status.md
 │
@@ -57,6 +57,10 @@ This is the clean template-repository structure. When a project is initiated,
 copy only the required templates to their operational locations. The templates
 remain reference originals; the copied project documents become the project's
 authoritative sources.
+
+`04_Templates/template_schedule.md` is the format-neutral schedule
+specification. Use it to create `01_Planning/schedule.md` by default or an Excel
+schedule when explicitly requested. Never maintain both as competing sources.
 
 The repository follows the main project flow:
 
@@ -496,7 +500,7 @@ Examples:
 |---|---|
 | Project purpose and scope | `project_definition.md` |
 | Execution approach | `project_plan.md` |
-| Detailed activities and dates | `schedule.md` |
+| Detailed activities and dates | The declared operational schedule: `schedule.md` or `schedule.xlsx` |
 | Current situational summary | `project_status.md` |
 | Significant decisions and reasoning | `decision_log.md` |
 | Active technical work | `02_Work/` |
@@ -504,6 +508,29 @@ Examples:
 
 Other documents may reference or summarize this information when necessary,
 but they should not create competing versions of the same source.
+
+## Identifier and Abbreviation Convention
+
+Identifiers connect related information without repeating its description.
+Use the following convention wherever these elements appear:
+
+| Prefix / Term | Meaning | Format | Example |
+|---|---|---|---|
+| `ID` | Identifier | Stable and unique within its element type | — |
+| `WP` | Work Package | `WP-###` | `WP-001` |
+| `MS` | Milestone | `MS-###` | `MS-001` |
+| `ACT` | Activity | `ACT-###` | `ACT-001` |
+| `DEC` | Decision | `DEC-###` | `DEC-001` |
+| `YYYY-MM-DD` | Calendar date | ISO 8601 year-month-day | `2026-09-08` |
+| `—` | None or not applicable | Em dash | — |
+
+Apply these rules:
+
+1. Assign an identifier once and never reuse it for another element.
+2. Keep identifiers stable even when names or descriptions change.
+3. Reference the identifier instead of copying information between documents.
+4. Use three digits by default and allow gaps when an element is removed.
+5. Define any new prefix in this section before using it in a template.
 
 ---
 

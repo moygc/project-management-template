@@ -23,8 +23,8 @@ Each work package should have a clear purpose and produce a meaningful output.
 
 | ID | Work Package | Purpose | Main Output |
 |---|---|---|---|
-| WP1 | [Name] | [Why this work is necessary] | [Expected output] |
-| WP2 | [Name] | [Why this work is necessary] | [Expected output] |
+| WP-001 | [Name] | [Why this work is necessary] | [Expected output] |
+| WP-002 | [Name] | [Why this work is necessary] | [Expected output] |
 
 Detailed activities, dates, dependencies, and activity responsibilities are
 maintained in the project schedule.
@@ -41,8 +41,8 @@ routine activities.
 
 | ID | Milestone | Completion Condition |
 |---|---|---|
-| M1 | [Milestone] | [Observable condition that indicates completion] |
-| M2 | [Milestone] | [Observable condition that indicates completion] |
+| MS-001 | [Milestone] | [Observable condition that indicates completion] |
+| MS-002 | [Milestone] | [Observable condition that indicates completion] |
 
 ---
 

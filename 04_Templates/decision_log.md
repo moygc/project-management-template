@@ -16,8 +16,8 @@ Do not use it for routine actions, meeting notes, or minor operational decisions
 
 | ID | Date | Decision | Reason | Impact |
 |---|---|---|---|---|
-| D01 | YYYY-MM-DD | [What was decided] | [Why it was decided] | [What changes or is affected] |
-| D02 | YYYY-MM-DD | [What was decided] | [Why it was decided] | [What changes or is affected] |
+| DEC-001 | YYYY-MM-DD | [What was decided] | [Why it was decided] | [What changes or is affected] |
+| DEC-002 | YYYY-MM-DD | [What was decided] | [Why it was decided] | [What changes or is affected] |
 
 ---
 
