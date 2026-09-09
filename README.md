@@ -47,7 +47,8 @@ Project_Name/
 │   ├── project_plan.md
 │   ├── template_schedule.md
 │   ├── decision_log.md
-│   └── project_status.md
+│   ├── project_status.md
+│   └── project_closeout.md
 │
 ├── .gitignore
 └── README.md
@@ -437,14 +438,16 @@ The minimum project management system is built around four core artifacts:
 |---|---|
 | `project_definition.md` | What are we doing and why? |
 | `project_plan.md` | How will we do it? |
-| `schedule.md` | What happens when and who is responsible? |
+| Operational schedule (`.md` or `.xlsx`) | What happens when and who is responsible? |
 | `decision_log.md` | What important decisions were made and why? |
 
-An optional fifth artifact provides situational awareness:
+Optional artifacts provide situational awareness and formal closure when they
+are needed:
 
 | Artifact | Main Question |
 |---|---|
 | `project_status.md` | Where are we now and what comes next? |
+| `project_closeout.md` | What was accepted, transferred, or left open? |
 
 This core remains stable across different types of projects.
 
@@ -505,6 +508,7 @@ Examples:
 | Significant decisions and reasoning | `decision_log.md` |
 | Active technical work | `02_Work/` |
 | Consolidated results | `03_Outputs/` |
+| Final acceptance and handover | `project_closeout.md`, when used |
 
 Other documents may reference or summarize this information when necessary,
 but they should not create competing versions of the same source.
@@ -517,9 +521,11 @@ Use the following convention wherever these elements appear:
 | Prefix / Term | Meaning | Format | Example |
 |---|---|---|---|
 | `ID` | Identifier | Stable and unique within its element type | — |
+| `DEL` | Deliverable | `DEL-###` | `DEL-001` |
 | `WP` | Work Package | `WP-###` | `WP-001` |
 | `MS` | Milestone | `MS-###` | `MS-001` |
 | `ACT` | Activity | `ACT-###` | `ACT-001` |
+| `RSK` | Risk or opportunity | `RSK-###` | `RSK-001` |
 | `DEC` | Decision | `DEC-###` | `DEC-001` |
 | `YYYY-MM-DD` | Calendar date | ISO 8601 year-month-day | `2026-09-08` |
 | `—` | None or not applicable | Em dash | — |

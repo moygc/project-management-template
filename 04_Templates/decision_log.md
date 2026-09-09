@@ -14,10 +14,10 @@ Do not use it for routine actions, meeting notes, or minor operational decisions
 
 ## Decisions
 
-| ID | Date | Decision | Reason | Impact |
-|---|---|---|---|---|
-| DEC-001 | YYYY-MM-DD | [What was decided] | [Why it was decided] | [What changes or is affected] |
-| DEC-002 | YYYY-MM-DD | [What was decided] | [Why it was decided] | [What changes or is affected] |
+| ID | Date | Decision | Reason | Impact | Decided By | References / Supersedes |
+|---|---|---|---|---|---|---|
+| DEC-001 | YYYY-MM-DD | [What was decided] | [Why] | [What is affected] | [Person / role] | [Related IDs or —] |
+| DEC-002 | YYYY-MM-DD | [What was decided] | [Why] | [What is affected] | [Person / role] | [Related IDs or DEC-###] |
 
 ---
 
@@ -34,9 +34,12 @@ Record a decision when it:
 
 Keep each entry concise.
 
+Record only completed decisions. Pending decisions belong in the attention
+section of `project_status.md` when that document is used.
+
 The decision log records **what was decided and why**. Detailed analysis,
 evidence, calculations, or meeting discussions should remain in their
 corresponding project documents.
 
 When a previous decision is changed, create a new entry rather than
-rewriting the historical record.
+rewriting the historical record, and reference the superseded decision ID.

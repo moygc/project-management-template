@@ -1,163 +1,97 @@
 # Project Definition
 
-## 1. Context
+## Purpose
 
-Describe briefly the situation in which the project emerges.
+Provide the minimum shared understanding required to decide what the project
+is, why it matters, and where its responsibility ends.
 
-Include only the background necessary to understand the project.
+## Project
 
-**Guiding questions:**
+- **Name:** [Project name]
+- **Project lead:** [Person / role]
+- **Approver:** [Person / role, or not required]
 
-- What is happening?
-- What relevant background should be understood?
-- What conditions led to the project?
+The project lead coordinates the work. The approver accepts material changes
+and final deliverables when approval is required.
 
----
+## 1. Need and Context
 
-## 2. Problem or Need
+[Describe the situation, problem, need, or opportunity in 2–4 sentences.
+State who is affected, why action is useful, and what matters if nothing is
+done. Do not describe the proposed solution yet.]
 
-Define the problem, need, or opportunity that justifies the project.
+## 2. Purpose and Value
 
-Focus on the situation that requires action, not on the proposed solution.
-
-**Guiding questions:**
-
-- What problem, need, or opportunity should be addressed?
-- Who is affected or interested?
-- Why is action valuable or necessary?
-- What could happen if nothing is done?
-
----
-
-## 3. Purpose and Value
-
-### Purpose
-
-State why the project exists and what change or value it intends to create.
-
-> [Project purpose]
-
-### Value
-
-Identify the main value expected from the project.
-
+- **Purpose:** [Why the project exists and what change it should create]
 - **Primary stakeholder:** [Who receives or uses the value]
-- **Expected value:** [What value the project provides]
-- **Decision enabled:** [What decision the project should help make, if applicable]
+- **Expected value:** [What useful result or improvement is expected]
+- **Decision enabled:** [Decision this project should support, if applicable]
 
----
+## 3. Objectives
 
-## 4. Objectives
+**Main objective:**
 
-Define the results the project intends to achieve.
+> [Primary result the project intends to achieve]
 
-### Main Objective
+**Supporting objectives:**
 
-> [Main objective]
+- [Necessary supporting result]
+- [Necessary supporting result]
 
-### Specific Objectives
+Describe results, not detailed activities.
 
-Include only the objectives necessary to achieve the main objective.
-
-- [Objective 1]
-- [Objective 2]
-- [Objective 3]
-
-Objectives should describe results to achieve, not detailed activities.
-
----
-
-## 5. Scope and Boundaries
-
-Define what the project covers and where its responsibility ends.
+## 4. Scope and Boundaries
 
 ### In Scope
 
-- [System, process, analysis, product, or result included]
-- [Included element]
+- [Included system, process, product, analysis, or result]
 
 ### Out of Scope
 
-- [Explicitly excluded element]
-- [Result that could reasonably be expected but is not included]
+- [Relevant exclusion that could otherwise be expected]
 
-### Boundaries
+### Boundaries and Interfaces
 
-When relevant, clarify:
+- **Starts at:** [Starting point, if relevant]
+- **Ends at:** [Ending point, if relevant]
+- **Interfaces with:** [External system, organization, process, or project]
 
-- **Starting point:** [Where the project or studied system begins]
-- **Ending point:** [Where it ends]
-- **Interfaces:** [Relevant external systems, processes, organizations, or projects]
+## 5. Deliverables
 
----
+List only tangible or verifiable outputs. Use the acceptance criterion to state
+how completion will be recognized.
 
-## 6. Deliverables
+| ID | Deliverable | Description | Acceptance Criterion | Accepted By |
+|---|---|---|---|---|
+| DEL-001 | [Deliverable] | [What will be produced] | [Observable condition] | [Person / role] |
+| DEL-002 | [Deliverable] | [What will be produced] | [Observable condition] | [Person / role] |
 
-Define only the main tangible or verifiable outputs required from the project.
+## 6. Conditions
 
-| Deliverable | Description | Acceptance Criterion |
-|---|---|---|
-| [Deliverable] | [What will be produced] | [How completion will be recognized] |
-| [Deliverable] | [What will be produced] | [How completion will be recognized] |
+Include only conditions that materially affect the project.
 
-Avoid treating intermediate work products as deliverables unless they
-provide independent value or require formal acceptance.
+- **Requirements:** [Conditions the project or outputs must satisfy]
+- **Constraints:** [Relevant time, cost, technical, regulatory, or resource limits]
+- **Assumptions:** [Conditions treated as true for planning]
+- **External dependencies:** [External inputs, events, people, or systems required]
 
----
+## 7. Success Criteria
 
-## 7. Requirements and Constraints
-
-Record only conditions that materially affect the definition of the project.
-
-### Requirements
-
-Conditions that the project or its outputs must satisfy.
-
-- [Requirement]
-- [Requirement]
-
-### Constraints
-
-Limits within which the project must operate.
-
-- **Scope:** defined by Section 5.
-- **Time:** [Main time constraint]
-- **Cost:** [Main budget or cost constraint]
-
-### Other Constraints
-
-- [Technical, regulatory, resource, contractual, or other relevant constraint]
-
-Do not create categories for constraints that do not exist.
-
----
-
-## 8. Success Criteria
-
-Define the minimum conditions required to consider the project successful.
+Define the minimum observable conditions for considering the project
+successful. Evaluate project results, not routine activity completion.
 
 | Criterion | Target / Condition |
 |---|---|
 | [Criterion] | [Observable or verifiable condition] |
 | [Criterion] | [Observable or verifiable condition] |
 
-Success criteria should evaluate achievement of the project, not routine
-completion of activities.
-
----
-
 ## Definition Check
 
-Before considering the project sufficiently defined, confirm:
+- [ ] Are the need, purpose, and expected value clear?
+- [ ] Are the project lead and any required approver identified?
+- [ ] Do the objectives describe results rather than activities?
+- [ ] Are scope, boundaries, and exclusions clear?
+- [ ] Are deliverables and acceptance conditions verifiable?
+- [ ] Are material conditions and success criteria visible?
 
-- [ ] Is the problem or need clear?
-- [ ] Is the purpose and expected value clear?
-- [ ] Are the objectives aligned with the problem and purpose?
-- [ ] Are scope and boundaries clear?
-- [ ] Are the main deliverables identifiable and verifiable?
-- [ ] Are relevant requirements and constraints known?
-- [ ] Is it clear what success means?
-
-If these questions can be answered sufficiently:
-
-**Project defined → Ready for planning**
+If the answers are sufficient, the project is ready for planning.

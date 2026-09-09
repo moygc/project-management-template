@@ -11,6 +11,7 @@ Focus on the logic and sequence of the work rather than detailed activities.
 - How will the project be carried out?
 - What major stages will structure the work?
 - What methods or approaches will guide execution?
+- Should delivery be staged, iterative, adaptive, or hybrid?
 
 ---
 
@@ -21,10 +22,10 @@ the project objectives.
 
 Each work package should have a clear purpose and produce a meaningful output.
 
-| ID | Work Package | Purpose | Main Output |
-|---|---|---|---|
-| WP-001 | [Name] | [Why this work is necessary] | [Expected output] |
-| WP-002 | [Name] | [Why this work is necessary] | [Expected output] |
+| ID | Work Package | Purpose | Owner | Produces / Supports |
+|---|---|---|---|---|
+| WP-001 | [Name] | [Why this work is necessary] | [Person / role] | [DEL-### or result] |
+| WP-002 | [Name] | [Why this work is necessary] | [Person / role] | [DEL-### or result] |
 
 Detailed activities, dates, dependencies, and activity responsibilities are
 maintained in the project schedule.
@@ -39,42 +40,28 @@ progressing as expected.
 Use milestones for meaningful completion or decision points rather than
 routine activities.
 
-| ID | Milestone | Completion Condition |
-|---|---|---|
-| MS-001 | [Milestone] | [Observable condition that indicates completion] |
-| MS-002 | [Milestone] | [Observable condition that indicates completion] |
-
----
-
-## 4. Roles and Responsibilities
-
-Define responsibility for the main parts of the project.
-
-Keep this section at role or work-package level. Detailed activity
-responsibilities belong in the project schedule.
-
-| Role / Person | Main Responsibility |
-|---|---|
-| [Role / Person] | [Main responsibility] |
-| [Role / Person] | [Main responsibility] |
-
----
-
-## 5. Risks
-
-Record only risks that could significantly affect project objectives,
-scope, schedule, or main outputs.
-
-| Risk | Probability | Impact | Response |
+| ID | Milestone | Completion Condition | Related Work |
 |---|---|---|---|
-| [Risk] | Low / Medium / High | Low / Medium / High | [Response] |
+| MS-001 | [Milestone] | [Observable condition that indicates completion] | [WP-### / DEL-###] |
+| MS-002 | [Milestone] | [Observable condition that indicates completion] | [WP-### / DEL-###] |
+
+---
+
+## 4. Risks and Opportunities
+
+Record only uncertainties that could significantly affect project objectives,
+scope, schedule, value, or main outputs.
+
+| ID | Risk / Opportunity | Exposure | Owner | Response | Status |
+|---|---|---|---|---|---|
+| RSK-001 | [Uncertain event and its effect] | Low / Medium / High | [Person / role] | [Planned response] | Open |
 
 Do not document every possible uncertainty. Focus on risks that require
-monitoring, prevention, mitigation, or a decision.
+monitoring, a response, or a decision. Use `Open`, `Monitoring`, or `Closed`.
 
 ---
 
-## 6. Monitoring and Control
+## 5. Monitoring and Control
 
 Define the minimum mechanism required to know whether the project is
 progressing as planned.
@@ -92,6 +79,10 @@ Evaluate progress primarily through:
 
 - [Weekly / milestone-based / other]
 
+Use the operational schedule for activity status, this plan for execution
+logic and risks, and `project_status.md` only when a concise current snapshot
+is useful.
+
 ### Control
 
 Compare planned progress against actual progress.
@@ -101,4 +92,7 @@ When a relevant deviation occurs:
 **Deviation → Impact → Action → Follow-up**
 
 Only changes that materially affect objectives, scope, main outputs,
-schedule, assumptions, or responsibilities should be formally recorded.
+schedule, assumptions, or responsibilities should be recorded in
+`decision_log.md`. The project lead manages work within the approved plan; the
+approver identified in `project_definition.md` decides material changes when
+approval is required.
