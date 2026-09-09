@@ -31,24 +31,32 @@ solve a real project need.
 ```text
 Project_Name/
 ├── 00_Definition/
-│   └── project_definition.md
+│   └── .gitkeep
 │
 ├── 01_Planning/
-│   ├── project_plan.md
-│   ├── schedule.md
-│   └── schedule.xlsx
+│   └── .gitkeep
 │
 ├── 02_Work/
-│   └── [project-specific structure]
+│   └── README.md
 │
 ├── 03_Outputs/
-│   └── [project-specific structure]
+│   └── .gitkeep
 │
-├── decision_log.md
-├── project_status.md
+├── 04_Templates/
+│   ├── project_definition.md
+│   ├── project_plan.md
+│   ├── schedule.md
+│   ├── decision_log.md
+│   └── project_status.md
+│
 ├── .gitignore
 └── README.md
 ```
+
+This is the clean template-repository structure. When a project is initiated,
+copy only the required templates to their operational locations. The templates
+remain reference originals; the copied project documents become the project's
+authoritative sources.
 
 The repository follows the main project flow:
 
@@ -158,8 +166,7 @@ Typical structure:
 ```text
 01_Planning/
 ├── project_plan.md
-├── schedule.md
-└── schedule.xlsx
+└── schedule.md
 ```
 
 ## `project_plan.md`
@@ -180,13 +187,7 @@ activity schedule.
 
 ## `schedule.md`
 
-Defines how the operational schedule should be organized and maintained.
-
-It acts as documentation for the schedule rather than as a second schedule.
-
-## `schedule.xlsx`
-
-Contains the operational schedule.
+Contains the operational schedule and defines how it should be maintained.
 
 It normally tracks:
 
@@ -432,7 +433,7 @@ The minimum project management system is built around four core artifacts:
 |---|---|
 | `project_definition.md` | What are we doing and why? |
 | `project_plan.md` | How will we do it? |
-| `schedule.xlsx` | What happens when and who is responsible? |
+| `schedule.md` | What happens when and who is responsible? |
 | `decision_log.md` | What important decisions were made and why? |
 
 An optional fifth artifact provides situational awareness:
@@ -495,7 +496,7 @@ Examples:
 |---|---|
 | Project purpose and scope | `project_definition.md` |
 | Execution approach | `project_plan.md` |
-| Detailed activities and dates | `schedule.xlsx` |
+| Detailed activities and dates | `schedule.md` |
 | Current situational summary | `project_status.md` |
 | Significant decisions and reasoning | `decision_log.md` |
 | Active technical work | `02_Work/` |
@@ -559,7 +560,7 @@ Project_Name/
 │   └── project_definition.md
 ├── 01_Planning/
 │   ├── project_plan.md
-│   └── schedule.xlsx
+│   └── schedule.md
 ├── 02_Work/
 ├── 03_Outputs/
 ├── decision_log.md
