@@ -40,10 +40,14 @@ progressing as expected.
 Use milestones for meaningful completion or decision points rather than
 routine activities.
 
-| ID | Milestone | Completion Condition | Related Work |
-|---|---|---|---|
-| MS-001 | [Milestone] | [Observable condition that indicates completion] | [WP-### / DEL-###] |
-| MS-002 | [Milestone] | [Observable condition that indicates completion] | [WP-### / DEL-###] |
+| ID | Milestone | Completion Condition | Target / Timing | Related Work |
+|---|---|---|---|---|
+| MS-001 | [Milestone] | [Observable condition that indicates completion] | [YYYY-MM-DD / iteration / event] | [WP-### / DEL-###] |
+| MS-002 | [Milestone] | [Observable condition that indicates completion] | [YYYY-MM-DD / iteration / event] | [WP-### / DEL-###] |
+
+Use a date, iteration, or triggering event according to the project. Connect
+schedule activities to a milestone when that relationship supports planning
+or control.
 
 ---
 

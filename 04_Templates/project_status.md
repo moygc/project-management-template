@@ -48,10 +48,11 @@ If nothing requires attention:
 
 ## 4. Immediate Focus
 
-- [ACT-### / DEC-### — why it matters now]
+- [ACT-### / MS-### / pending decision — why it matters now]
 
-Ownership, dates, dependencies, and detailed status remain in the operational
-schedule or decision log. Do not create a second task list here.
+Ownership, dates, dependencies, and detailed activity status remain in the
+operational schedule. Completed decision history remains in the decision log.
+Do not create a second task list here.
 
 ## 5. Next Checkpoint
 

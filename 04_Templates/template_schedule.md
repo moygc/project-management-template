@@ -52,6 +52,7 @@ Identifiers and abbreviations follow the convention defined in `README.md`.
 Add a column only when it supports a real planning or control decision.
 Possible extensions include:
 
+- related milestone;
 - iteration or cycle;
 - actual start;
 - forecast finish;

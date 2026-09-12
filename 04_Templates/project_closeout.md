@@ -26,7 +26,17 @@ their descriptions.
 |---|---|---|---|---|
 | DEL-001 | Accepted / Partial / Rejected | [Path or reference] | [Person / role] | YYYY-MM-DD |
 
-## 3. Handover or Remaining Commitments
+## 3. Success Evaluation
+
+Evaluate the success criteria defined in `project_definition.md`. Deliverable
+acceptance confirms what was produced; success evaluation confirms whether the
+intended project result was achieved.
+
+| Criterion | Result | Evidence / Location | Status |
+|---|---|---|---|
+| [Criterion or reference] | [Observed result] | [Path or reference] | Met / Partially Met / Not Met |
+
+## 4. Handover or Remaining Commitments
 
 Include only unresolved work that remains relevant after closeout.
 
@@ -38,7 +48,7 @@ If nothing remains:
 
 > No relevant commitments remain open.
 
-## 4. Essential Lessons
+## 5. Essential Lessons
 
 - **Keep:** [What worked and should be repeated]
 - **Change:** [What should be done differently]
