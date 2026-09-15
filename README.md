@@ -184,8 +184,8 @@ Each template mixes two kinds of content: structural sections meant to hold proj
 
 | Information | Authoritative location |
 |---|---|
-| Purpose, objectives, scope, deliverables, and success criteria | `00_Definition/project_definition.md` |
-| Execution approach, work packages, milestones, and significant risks | `01_Planning/project_plan.md` |
+| Purpose, objectives, scope, deliverables, success criteria, and approved budget | `00_Definition/project_definition.md` |
+| Execution approach, work packages, milestones, significant risks, and cost estimates | `01_Planning/project_plan.md` |
 | Activities, dates, dependencies, and operational status | Declared schedule in `01_Planning/` |
 | Significant decisions and reasoning | `decision_log.md` |
 | Current situational summary | `project_status.md`, when used |

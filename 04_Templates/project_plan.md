@@ -22,13 +22,16 @@ the project objectives.
 
 Each work package should have a clear purpose and produce a meaningful output.
 
-| ID | Work Package | Purpose | Owner | Produces / Supports |
-|---|---|---|---|---|
-| WP-001 | [Name] | [Why this work is necessary] | [Person / role] | [DEL-### or result] |
-| WP-002 | [Name] | [Why this work is necessary] | [Person / role] | [DEL-### or result] |
+| ID | Work Package | Purpose | Owner | Produces / Supports | Estimated Cost |
+|---|---|---|---|---|---|
+| WP-001 | [Name] | [Why this work is necessary] | [Person / role] | [DEL-### or result] | [Amount, or —] |
+| WP-002 | [Name] | [Why this work is necessary] | [Person / role] | [DEL-### or result] | [Amount, or —] |
 
 Detailed activities, dates, dependencies, and activity responsibilities are
 maintained in the project schedule.
+
+Use `—` in Estimated Cost for a project that does not track a budget.
+When it does, estimate cost at the work package level, the same level where purpose and ownership are already defined, and sum it against the approved budget in `project_definition.md`. Escalate to a full cost baseline and variance tracking only per `SCALING.md`.
 
 ---
 
@@ -77,7 +80,8 @@ Evaluate progress primarily through:
 - completion of work packages;
 - achievement of milestones;
 - status of critical activities;
-- significant risks or blockers.
+- significant risks or blockers;
+- estimated versus actual cost, when the project tracks a budget.
 
 ### Review Frequency
 

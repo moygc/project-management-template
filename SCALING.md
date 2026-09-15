@@ -78,9 +78,11 @@ software once dependency logic is no longer manageable in a flat table.
 
 ## Cost
 
-**Lean default:** none today. This is the first fundamental gap this
-scaling document exists to close; see the fundamentals gap list for the
-lean core being added to `project_plan.md` and `project_definition.md`.
+**Lean default:** `project_definition.md` has a Budget field under
+Conditions (approved amount, source, fixed or estimated, or — when the
+project does not track one). `project_plan.md`'s work breakdown table has
+an Estimated Cost column per work package, and Progress monitoring
+includes estimated versus actual cost when a budget exists.
 
 **Complexity signals** (PMBOK Chapter 7, Larson & Gray Chapters 5 and 8):
 the project has an approved budget from a client, sponsor, or grant;

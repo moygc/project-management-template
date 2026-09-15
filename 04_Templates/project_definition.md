@@ -71,7 +71,9 @@ how completion will be recognized.
 Include only conditions that materially affect the project.
 
 - **Requirements:** [Conditions the project or outputs must satisfy]
-- **Constraints:** [Relevant time, cost, technical, regulatory, or resource limits]
+- **Budget:** [Approved amount and currency, its source, and whether it is fixed
+  or estimated, or — if the project does not track a budget]
+- **Constraints:** [Relevant time, technical, regulatory, or resource limits]
 - **Assumptions:** [Conditions treated as true for planning]
 - **External dependencies:** [External inputs, events, people, or systems required]
 
