@@ -117,6 +117,11 @@ When a relevant deviation occurs:
 
 **Deviation → Impact → Action → Follow-up**
 
+When a deviation forces a trade-off between time, cost, and scope, resolve
+it using the priority matrix in `project_definition.md` Section 5: protect
+the dimension marked Constrain, adjust the one marked Accept first, and
+optimize the one marked Enhance only if it does not endanger the other two.
+
 Only changes that materially affect objectives, scope, main outputs,
 schedule, assumptions, or responsibilities should be recorded in
 `decision_log.md`. The project lead manages work within the approved plan; the

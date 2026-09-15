@@ -52,7 +52,24 @@ here unless their interest or influence goes beyond that role.
 
 Describe results, not detailed activities.
 
-## 5. Scope and Boundaries
+## 5. Project Priorities
+
+When time, cost, and scope conflict during execution, decide in advance
+which one is fixed, which one is worth optimizing, and which one absorbs
+the pressure. Mark each dimension exactly once.
+
+| Dimension | Constrain (fixed) | Enhance (optimize) | Accept (flexible) |
+|---|---|---|---|
+| Time | | | |
+| Cost | | | |
+| Scope | | | |
+
+Use Constrain for the dimension that cannot move regardless of pressure
+elsewhere. Use Accept for the dimension that absorbs deviations when the
+other two must be protected. Use Enhance for the dimension worth
+optimizing when it does not endanger the other two.
+
+## 6. Scope and Boundaries
 
 ### In Scope
 
@@ -68,7 +85,7 @@ Describe results, not detailed activities.
 - **Ends at:** [Ending point, if relevant]
 - **Interfaces with:** [External system, organization, process, or project]
 
-## 6. Deliverables
+## 7. Deliverables
 
 List only tangible or verifiable outputs. Use the acceptance criterion to state
 how completion will be recognized.
@@ -78,7 +95,7 @@ how completion will be recognized.
 | DEL-001 | [Deliverable] | [What will be produced] | [Observable condition] | [Person / role] |
 | DEL-002 | [Deliverable] | [What will be produced] | [Observable condition] | [Person / role] |
 
-## 7. Conditions
+## 8. Conditions
 
 Include only conditions that materially affect the project.
 
@@ -89,7 +106,7 @@ Include only conditions that materially affect the project.
 - **Assumptions:** [Conditions treated as true for planning]
 - **External dependencies:** [External inputs, events, people, or systems required]
 
-## 8. Success Criteria
+## 9. Success Criteria
 
 Define the minimum observable conditions for considering the project
 successful. Evaluate project results, not routine activity completion.
@@ -106,6 +123,8 @@ successful. Evaluate project results, not routine activity completion.
 - [ ] Are the stakeholders who could materially affect the project identified,
       with an engagement approach for each?
 - [ ] Do the objectives describe results rather than activities?
+- [ ] Is it clear which of time, cost, and scope is fixed, which is
+      optimized, and which absorbs pressure when they conflict?
 - [ ] Are scope, boundaries, and exclusions clear?
 - [ ] Are deliverables and acceptance conditions verifiable?
 - [ ] Are material conditions and success criteria visible?
