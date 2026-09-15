@@ -78,7 +78,10 @@ Project_Name/
 │   └── project_closeout.md
 ├── .gitattributes
 ├── .gitignore
-└── README.md
+├── AGENTS.md
+├── CLAUDE.md
+├── README.md
+└── SCALING.md
 ~~~
 
 The `.gitkeep` files preserve intentionally empty folders in Git. Replace or
