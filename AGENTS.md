@@ -55,6 +55,8 @@ Follow the single-source-of-truth table in `README.md` Section 5. Never
 create a second editable copy of information that already has an
 authoritative location.
 
+Never remove the instructional guidance (`Purpose`, `Usage Rules`, checklists) from an operational document once it is filled, even to shorten it. It stays permanently, per `README.md` Section 4.
+
 ## 4. Commit Discipline
 
 Once a project has its own git repository:
