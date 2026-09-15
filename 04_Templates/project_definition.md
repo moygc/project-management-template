@@ -23,11 +23,23 @@ done. Do not describe the proposed solution yet.]
 ## 2. Purpose and Value
 
 - **Purpose:** [Why the project exists and what change it should create]
-- **Primary stakeholder:** [Who receives or uses the value]
 - **Expected value:** [What useful result or improvement is expected]
 - **Decision enabled:** [Decision this project should support, if applicable]
 
-## 3. Objectives
+## 3. Stakeholders
+
+List only stakeholders whose interest or influence could materially affect
+the project, not everyone remotely connected to it. For a project with a
+single, obvious stakeholder, one row is enough.
+
+| ID | Stakeholder | Interest / Expectation | Influence | Engagement Approach |
+|---|---|---|---|---|
+| STK-001 | [Name or role] | [What they need or expect from the project] | Low / Medium / High | [How and how often they are engaged] |
+
+The approver and project lead identified above do not need a separate row
+here unless their interest or influence goes beyond that role.
+
+## 4. Objectives
 
 **Main objective:**
 
@@ -40,7 +52,7 @@ done. Do not describe the proposed solution yet.]
 
 Describe results, not detailed activities.
 
-## 4. Scope and Boundaries
+## 5. Scope and Boundaries
 
 ### In Scope
 
@@ -56,7 +68,7 @@ Describe results, not detailed activities.
 - **Ends at:** [Ending point, if relevant]
 - **Interfaces with:** [External system, organization, process, or project]
 
-## 5. Deliverables
+## 6. Deliverables
 
 List only tangible or verifiable outputs. Use the acceptance criterion to state
 how completion will be recognized.
@@ -66,7 +78,7 @@ how completion will be recognized.
 | DEL-001 | [Deliverable] | [What will be produced] | [Observable condition] | [Person / role] |
 | DEL-002 | [Deliverable] | [What will be produced] | [Observable condition] | [Person / role] |
 
-## 6. Conditions
+## 7. Conditions
 
 Include only conditions that materially affect the project.
 
@@ -77,7 +89,7 @@ Include only conditions that materially affect the project.
 - **Assumptions:** [Conditions treated as true for planning]
 - **External dependencies:** [External inputs, events, people, or systems required]
 
-## 7. Success Criteria
+## 8. Success Criteria
 
 Define the minimum observable conditions for considering the project
 successful. Evaluate project results, not routine activity completion.
@@ -91,6 +103,8 @@ successful. Evaluate project results, not routine activity completion.
 
 - [ ] Are the need, purpose, and expected value clear?
 - [ ] Are the project lead and any required approver identified?
+- [ ] Are the stakeholders who could materially affect the project identified,
+      with an engagement approach for each?
 - [ ] Do the objectives describe results rather than activities?
 - [ ] Are scope, boundaries, and exclusions clear?
 - [ ] Are deliverables and acceptance conditions verifiable?

@@ -25,7 +25,7 @@ may need additional controls.
 
 This repository's structure, meaning headers, field names, rules, and instructional guidance, is authored in English by default, for consistency with git conventions and cross-tool AI agent standards. The content you write inside it, project names, descriptions, decisions, and any other project-specific text, can be in any language, including Spanish, without asking.
 
-Translating the structure itself into another language is a deliberate project-level choice, not a default. If a project's team is more comfortable operating entirely in another language, a human or an AI agent can translate the templates and operational documents, but only when the user explicitly requests it, never as an unprompted courtesy. Keep the identifier codes (`DEL`, `WP`, `MS`, `ACT`, `RSK`, `DEC`) untranslated even in a translated project, since they are referenced literally across documents.
+Translating the structure itself into another language is a deliberate project-level choice, not a default. If a project's team is more comfortable operating entirely in another language, a human or an AI agent can translate the templates and operational documents, but only when the user explicitly requests it, never as an unprompted courtesy. Keep the identifier codes (`DEL`, `STK`, `WP`, `MS`, `ACT`, `RSK`, `DEC`) untranslated even in a translated project, since they are referenced literally across documents.
 
 ---
 
@@ -184,7 +184,7 @@ Each template mixes two kinds of content: structural sections meant to hold proj
 
 | Information | Authoritative location |
 |---|---|
-| Purpose, objectives, scope, deliverables, success criteria, and approved budget | `00_Definition/project_definition.md` |
+| Purpose, objectives, stakeholders, scope, deliverables, success criteria, and approved budget | `00_Definition/project_definition.md` |
 | Execution approach, work packages, milestones, significant risks, and cost estimates | `01_Planning/project_plan.md` |
 | Activities, dates, dependencies, and operational status | Declared schedule in `01_Planning/` |
 | Significant decisions and reasoning | `decision_log.md` |
@@ -203,6 +203,7 @@ Identifiers connect related information without repeating descriptions:
 | Prefix or term | Meaning | Format |
 |---|---|---|
 | `DEL` | Deliverable | `DEL-###` |
+| `STK` | Stakeholder | `STK-###` |
 | `WP` | Work package | `WP-###` |
 | `MS` | Milestone | `MS-###` |
 | `ACT` | Activity | `ACT-###` |

@@ -70,7 +70,7 @@ authoritative location.
 
 Never remove the instructional guidance (`Purpose`, `Usage Rules`, checklists) from an operational document once it is filled, even to shorten it. It stays permanently, per `README.md` Section 4.
 
-Do not translate the structure of these documents (headers, field names, rules) on your own initiative, even when the user works in another language; the content you fill in always follows the user's language without needing to ask. If the user explicitly asks you to translate the templates or an operational document's format into another language, do it, keeping the identifier codes (`DEL`, `WP`, `MS`, `ACT`, `RSK`, `DEC`) untranslated. See `README.md` Section "Language".
+Do not translate the structure of these documents (headers, field names, rules) on your own initiative, even when the user works in another language; the content you fill in always follows the user's language without needing to ask. If the user explicitly asks you to translate the templates or an operational document's format into another language, do it, keeping the identifier codes (`DEL`, `STK`, `WP`, `MS`, `ACT`, `RSK`, `DEC`) untranslated. See `README.md` Section "Language".
 
 ## 4. Commit Discipline
 

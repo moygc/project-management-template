@@ -187,10 +187,10 @@ full procurement process for an informal purchase.
 
 ## Stakeholders
 
-**Lean default:** none beyond the single "Primary stakeholder" field. This
-is the second fundamental gap this document exists to close; see the
-fundamentals gap list for the lean stakeholder register being added to
-`project_definition.md`.
+**Lean default:** `project_definition.md` Section 3 has a stakeholder
+table (`STK-###`: interest or expectation, influence, engagement
+approach), scoped to stakeholders who could materially affect the
+project, not an exhaustive list.
 
 **Complexity signals** (PMBOK Chapter 13, Larson & Gray 10.2): more than
 one stakeholder group with different or conflicting interests; a
