@@ -1,6 +1,6 @@
 # Project Repository
 
-> **Project:** `[Project Name]`. This repository is this project's management system, built on the Template_Projects structure. What the project is, why it exists, and its scope is defined in `00_Definition/project_definition.md`; that file is the authoritative source, not this paragraph. This README describes how the repository itself is organized and used, and applies the same way to every project built on this template.
+> **Project:** `[Project Name]`. Bootstrapped from Template_Projects commit `[hash]` on `[YYYY-MM-DD]`. This repository is this project's management system, built on the Template_Projects structure. What the project is, why it exists, and its scope is defined in `00_Definition/project_definition.md`; that file is the authoritative source, not this paragraph. This README describes how the repository itself is organized and used, and applies the same way to every project built on this template.
 
 ## Purpose
 
