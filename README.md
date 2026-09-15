@@ -168,6 +168,8 @@ reconstructed. Reproducible generated outputs may be ignored.
 Contains reusable reference originals. Operational copies become the
 authoritative project records.
 
+Each template mixes two kinds of content: structural sections meant to hold project information, and instructional guidance (`Purpose`, `Usage Rules`, checklists) that explains how to use that section. Keep the instructional guidance in the operational copy permanently, even after the section is filled. It documents the document for anyone reading it later, human or AI, without requiring them to consult this README first. Do not remove it to shorten or "clean up" a filled document.
+
 ---
 
 # 5. Information and Traceability
