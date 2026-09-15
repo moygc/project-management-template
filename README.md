@@ -298,6 +298,8 @@ Projects may require additional controls for budget, contracts, quality,
 regulation, security, communications, stakeholders, suppliers, or formal
 change approval. Add them only when the project context requires them.
 
+`SCALING.md`, at the repository root, turns this principle into concrete guidance grounded in standard project management references: per knowledge area, what the lean default covers, the complexity signals that call for more, and exactly what to add. Consult it before inventing a new control from scratch.
+
 Prefer:
 
 - group before dividing;

@@ -62,6 +62,8 @@ Do this once, only when starting a new project from the template.
 Follow the reading order in `README.md` Section 9 (Using the Repository with
 AI) to reconstruct project context before doing any work.
 
+When the project's actual situation (its scope, budget, stakeholders, or the work itself) looks more complex than the lean default template assumes, consult `SCALING.md` before proposing or building new structure. It gives the concrete complexity signals and the exact escalation for each project management area, grounded in standard references, so scaling decisions are not improvised.
+
 Follow the single-source-of-truth table in `README.md` Section 5. Never
 create a second editable copy of information that already has an
 authoritative location.
