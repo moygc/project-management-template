@@ -63,7 +63,10 @@ estimated and owned by one person.
 
 **Lean default:** one authoritative schedule (`01_Planning/schedule.md` or
 `.xlsx`) per `README.md` Section 2, with activity, work package, owner,
-planned dates, status, and dependencies.
+planned dates, status, and dependencies. `project_status.md`, when used,
+adds a simple quantitative rollup: work packages complete and milestones
+met, counted directly from the plan and schedule, not tracked separately
+(Larson & Gray 13.3's Percent Complete Rule at its leanest).
 
 **Complexity signals** (PMBOK 6.5, Larson & Gray 6.4-6.6): more than roughly
 20-30 activities where dependency logic stops being obvious by inspection;

@@ -9,6 +9,10 @@ understand the project. This document is optional and is not a second tracker.
 
 - **Stage / iteration:** [Current lifecycle stage, iteration, or work mode]
 - **Overall status:** [On Track / At Risk / Blocked / Completed]
+- **Progress:** [Work packages complete: X of Y. Milestones met: X of Y.
+  Count directly from `project_plan.md` and the schedule; do not track
+  status separately here. Use — if a count would not be meaningful, for
+  example very early or single-work-package projects.]
 - **Last updated:** YYYY-MM-DD
 
 | Status | Meaning |
