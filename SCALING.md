@@ -140,8 +140,10 @@ hypothetical one.
 
 ## Communications
 
-**Lean default:** `project_plan.md` Section 5 has one line for review
-frequency. `project_status.md`, when used, is the situational snapshot.
+**Lean default:** `project_plan.md` Section 5 has a communication table
+(audience, information, frequency, channel) with one row, enough when a
+single audience covers it. `project_status.md`, when used, is the
+situational snapshot that table points to.
 
 **Complexity signals** (PMBOK Chapter 10, Larson & Gray 4.8): more than one
 audience needs different information at different cadences (for example, a
@@ -149,10 +151,10 @@ sponsor wanting a monthly summary versus a team needing weekly detail);
 communication failures have already caused rework or missed expectations;
 the project spans organizations or time zones.
 
-**Escalation:** add a short communications table (audience, information
-needed, frequency, channel, owner) to `project_plan.md` once more than one
-audience needs materially different information. Do not build this for a
-single stakeholder who simply reads the schedule.
+**Escalation:** add a row per audience to the existing communication
+table once more than one audience needs materially different
+information, each with its own frequency and channel. A single
+stakeholder who simply reads the schedule does not need a second row.
 
 ## Risk
 

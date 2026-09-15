@@ -41,6 +41,11 @@ maintained in the project schedule.
 Use `—` in Estimated Cost for a project that does not track a budget.
 When it does, estimate cost at the work package level, the same level where purpose and ownership are already defined, and sum it against the approved budget in `project_definition.md`. Escalate to a full cost baseline and variance tracking only per `SCALING.md`.
 
+One owner per work package is enough when one person or role can
+reasonably be held accountable for it. Add a RACI-style responsibility
+matrix only once more than one role is genuinely involved in the same
+work package or deliverable, per `SCALING.md` (Resources).
+
 ---
 
 ## 3. Milestones
@@ -91,9 +96,14 @@ Evaluate progress primarily through:
 - significant risks or blockers;
 - estimated versus actual cost, when the project tracks a budget.
 
-### Review Frequency
+### Communication
 
-- [Weekly / milestone-based / other]
+List who needs to know how the project is going, and how often. One row
+is enough when a single audience covers it.
+
+| Audience | Information | Frequency | Channel |
+|---|---|---|---|
+| [Person / role / group] | [What they need to know] | [Weekly / milestone-based / other] | [Meeting, email, document, or other] |
 
 Use the operational schedule for activity status, this plan for execution
 logic and risks, and `project_status.md` only when a concise current snapshot
