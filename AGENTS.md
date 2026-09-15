@@ -29,12 +29,19 @@ Do this once, only when starting a new project from the template.
 
 1. Clone or copy this repository into the new project's location, and rename
    the root folder to the actual project name.
-2. Remove the cloned git history: delete the `.git` folder entirely
+2. Record the template's origin before removing its git history: inside the
+   cloned folder, run `git rev-parse --short HEAD` to get the current commit
+   hash, and write that hash plus today's date into the `**Project:**` line
+   at the top of `README.md` (for example: `Bootstrapped from
+   Template_Projects commit abc1234 on 2026-09-15`). This is the only trace
+   of which template version the project started from, since the next step
+   deletes the git history that would otherwise show it.
+3. Remove the cloned git history: delete the `.git` folder entirely
    (`rm -rf .git` on Linux or macOS; delete it via the file manager on
    Windows, or `rmdir /s /q .git` from PowerShell). This repository must
    never inherit the template's commit history, and must never push to the
    template's original remote.
-3. Decide whether this project needs its own version control. Use the rule
+4. Decide whether this project needs its own version control. Use the rule
    already defined in `README.md` Section 8: git is optional, recommended
    when history, collaboration, traceability, or recovery matters.
    - If yes: run `git init`, make a first commit
@@ -44,7 +51,7 @@ Do this once, only when starting a new project from the template.
    - If no: skip git initialization. Once `project_definition.md` or
      `decision_log.md` exist, record that this project intentionally has no
      version control, so the choice stays traceable.
-4. Continue with the Quick Start in `README.md` Section 1.
+5. Continue with the Quick Start in `README.md` Section 1.
 
 ## 3. Working in an Already-Bootstrapped Project
 
