@@ -20,6 +20,14 @@ Focus on the logic and sequence of the work rather than detailed activities.
 Break the project into the minimum set of work packages required to achieve
 the project objectives.
 
+Together with the deliverables in `project_definition.md`, this table is
+the project's Work Breakdown Structure: deliverables are what the
+project produces, work packages are the effort that produces them. A
+work package is sized correctly when it can be reliably estimated,
+scheduled, and assigned to one owner. When it cannot, decompose it into
+sub-work-packages (`WP-001.1`, `WP-001.2`, ...) instead of leaving it too
+large to control, per the identifier rule in `README.md` Section 5.
+
 Each work package should have a clear purpose and produce a meaningful output.
 
 | ID | Work Package | Purpose | Owner | Produces / Supports | Estimated Cost |

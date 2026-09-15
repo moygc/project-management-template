@@ -219,6 +219,10 @@ Apply these rules:
 3. Reference identifiers instead of duplicating information.
 4. Use three digits by default and allow gaps when an item is removed.
 5. Define a new prefix here before using it systematically.
+6. Decompose a work package that is too large to reliably estimate or
+   assign to one owner into sub-work-packages, using `WP-001.1`,
+   `WP-001.2`, and so on. Apply the same pattern to other identifiers
+   only if a comparable need arises.
 
 ---
 
