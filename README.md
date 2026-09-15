@@ -23,6 +23,8 @@ may need additional controls.
 
 # 1. Quick Start
 
+If this repository was just cloned or copied to start a new project (that is, this is still the template), first follow the bootstrap procedure in `AGENTS.md`: rename the root folder, remove the template's `.git` history, and decide whether the new project needs its own version control. Then continue below.
+
 Use the repository in this order:
 
 1. Copy `04_Templates/project_definition.md` to
@@ -299,6 +301,8 @@ Prefer:
 
 Git is optional for projects created from this structure, but recommended when
 history, collaboration, traceability, or recovery matters.
+
+When this repository is used to start a new project, remove the template's `.git` history first and decide independently whether the new project needs its own version control. This bootstrap step is not part of the project's own history; follow the procedure in `AGENTS.md`.
 
 ## Source-First Principle
 

@@ -1,0 +1,65 @@
+# AGENTS.md
+
+## Purpose
+
+This file is the entry point for any AI agent working in this repository,
+whether the work is still on the template itself or on a project already
+bootstrapped from it. Read it before making changes.
+
+## 1. Identify the State of This Repository
+
+Check first whether this repository is:
+
+- **The template itself**, as cloned from GitHub: `.git` present, pointing to
+  the template's own remote, `04_Templates/` populated, and
+  `00_Definition/`, `01_Planning/`, `03_Outputs/` still empty.
+- **An already-bootstrapped project**: root folder renamed to the project
+  name, `.git` reinitialized (or absent), and operational files present in
+  `00_Definition/`, `01_Planning/`, or later stages.
+
+Do not edit files inside `04_Templates/` in either case. They remain clean
+reference originals; operational copies are made elsewhere, per
+`README.md` Section 1.
+
+## 2. Bootstrapping a New Project
+
+Do this once, only when starting a new project from the template.
+
+1. Clone or copy this repository into the new project's location, and rename
+   the root folder to the actual project name.
+2. Remove the cloned git history: delete the `.git` folder entirely
+   (`rm -rf .git` on Linux or macOS; delete it via the file manager on
+   Windows, or `rmdir /s /q .git` from PowerShell). This repository must
+   never inherit the template's commit history, and must never push to the
+   template's original remote.
+3. Decide whether this project needs its own version control. Use the rule
+   already defined in `README.md` Section 8: git is optional, recommended
+   when history, collaboration, traceability, or recovery matters.
+   - If yes: run `git init`, make a first commit
+     (`chore: initialize project from Template_Projects`), and separately
+     decide whether it needs a remote now (a new, independent repository,
+     usually private) or can stay local-only until that need appears.
+   - If no: skip git initialization. Once `project_definition.md` or
+     `decision_log.md` exist, record that this project intentionally has no
+     version control, so the choice stays traceable.
+4. Continue with the Quick Start in `README.md` Section 1.
+
+## 3. Working in an Already-Bootstrapped Project
+
+Follow the reading order in `README.md` Section 9 (Using the Repository with
+AI) to reconstruct project context before doing any work.
+
+Follow the single-source-of-truth table in `README.md` Section 5. Never
+create a second editable copy of information that already has an
+authoritative location.
+
+## 4. Commit Discipline
+
+Once a project has its own git repository:
+
+- Use the commit types defined in `README.md` Section 8
+  (`feat:`, `fix:`, `docs:`, `style:`).
+- Check the current state of the working tree before staging or committing,
+  so unrelated or uncommitted work is never swept into the wrong commit.
+- Never commit project-specific content into `04_Templates/`; those files
+  stay clean.
