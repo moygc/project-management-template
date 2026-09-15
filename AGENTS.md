@@ -17,6 +17,8 @@ Check first whether this repository is:
   name, `.git` reinitialized (or absent), and operational files present in
   `00_Definition/`, `01_Planning/`, or later stages.
 
+  If this is the case, this project's own identity, purpose, and scope live in `00_Definition/project_definition.md`, not in this file or in `README.md`. See Section 3 below before doing any project-specific work.
+
 Do not edit files inside `04_Templates/` in either case. They remain clean
 reference originals; operational copies are made elsewhere, per
 `README.md` Section 1.
