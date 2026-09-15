@@ -1,5 +1,7 @@
 # Project Repository
 
+> **Project:** `[Project Name]`. This repository is this project's management system, built on the Template_Projects structure. What the project is, why it exists, and its scope is defined in `00_Definition/project_definition.md`; that file is the authoritative source, not this paragraph. This README describes how the repository itself is organized and used, and applies the same way to every project built on this template.
+
 ## Purpose
 
 This repository provides a simple, reusable system for managing projects.
@@ -28,7 +30,7 @@ If this repository was just cloned or copied to start a new project (that is, th
 Use the repository in this order:
 
 1. Copy `04_Templates/project_definition.md` to
-   `00_Definition/project_definition.md` and define the project.
+   `00_Definition/project_definition.md` and define the project. Replace the `[Project Name]` placeholder at the top of this README with the project's actual name.
 2. Copy `04_Templates/decision_log.md` to `decision_log.md`.
 3. Once the definition is sufficient, copy
    `04_Templates/project_plan.md` to `01_Planning/project_plan.md` and use
