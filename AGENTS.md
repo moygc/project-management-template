@@ -35,7 +35,11 @@ Do this once, only when starting a new project from the template.
    at the top of `README.md` (for example: `Bootstrapped from
    Template_Projects commit abc1234 on 2026-09-15`). This is the only trace
    of which template version the project started from, since the next step
-   deletes the git history that would otherwise show it.
+   deletes the git history that would otherwise show it. If the repository
+   was copied without git (for example, a downloaded ZIP, with no `.git`
+   folder present), get the same short commit hash directly from the
+   GitHub repository page instead, from the latest commit on its default
+   branch, and use it the same way.
 3. Remove the cloned git history: delete the `.git` folder entirely
    (`rm -rf .git` on Linux or macOS; delete it via the file manager on
    Windows, or `rmdir /s /q .git` from PowerShell). This repository must
@@ -71,7 +75,7 @@ Do not translate the structure of these documents (headers, field names, rules) 
 Once a project has its own git repository:
 
 - Use the commit types defined in `README.md` Section 8
-  (`feat:`, `fix:`, `docs:`, `style:`).
+  (`feat:`, `fix:`, `docs:`, `style:`, `chore:`).
 - Check the current state of the working tree before staging or committing,
   so unrelated or uncommitted work is never swept into the wrong commit.
 - Never commit project-specific content into `04_Templates/`; those files

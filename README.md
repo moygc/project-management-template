@@ -31,7 +31,7 @@ Translating the structure itself into another language is a deliberate project-l
 
 # 1. Quick Start
 
-If this repository was just cloned or copied to start a new project (that is, this is still the template), first follow the bootstrap procedure in `AGENTS.md`: rename the root folder, remove the template's `.git` history, and decide whether the new project needs its own version control. Then continue below.
+If this repository was just cloned or copied to start a new project (that is, this is still the template), first complete the bootstrap procedure in `AGENTS.md` Section 2. Then continue below.
 
 Use the repository in this order:
 
@@ -312,7 +312,7 @@ Prefer:
 Git is optional for projects created from this structure, but recommended when
 history, collaboration, traceability, or recovery matters.
 
-When this repository is used to start a new project, remove the template's `.git` history first and decide independently whether the new project needs its own version control. This bootstrap step is not part of the project's own history; follow the procedure in `AGENTS.md`.
+When this repository is used to start a new project, complete the bootstrap procedure in `AGENTS.md` Section 2 before this project's own git history begins.
 
 ## Source-First Principle
 
@@ -351,6 +351,7 @@ type: short description
 | `fix:` | Correct content, data, logic, or inconsistency |
 | `docs:` | Update documentation or guidance |
 | `style:` | Change presentation without changing meaning |
+| `chore:` | Maintenance that does not add project content or fix a defect, such as repository setup, tooling, or housekeeping |
 
 Keep commits focused on meaningful units of work. Review changed files before
 committing and do not intentionally commit temporary, generated, ignored, or
@@ -403,9 +404,10 @@ Relevant Work and Outputs
 project_closeout.md               [if used]
 ~~~
 
-AI-specific instructions may define how an assistant should work. Project
-documents remain the source of truth for what the project is and its current
-state.
+`AGENTS.md`, at the repository root, is this repository's entry point for
+AI agents; read it before this list, for the bootstrap procedure and
+standing rules an agent must follow. Project documents remain the source
+of truth for what the project is and its current state.
 
 ---
 
