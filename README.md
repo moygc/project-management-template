@@ -21,6 +21,36 @@ The 80/20 principle is a design target, not a mathematical guarantee. Projects
 with contractual, regulatory, financial, safety, or organizational requirements
 may need additional controls.
 
+## License
+
+Copyright (c) 2026 Moises-Alberto Gonzalez-Contreras.
+
+The original templates and documentation in Template_Projects are licensed
+under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+The complete legal text is available in [LICENSE](LICENSE).
+
+You may copy, adapt, and redistribute these materials, including for commercial
+purposes. When sharing them, provide appropriate attribution, link to the
+license, and indicate modifications, as required by the license.
+
+Suggested attribution:
+
+> [Template_Projects](https://github.com/moygc/template_projects) by
+> Moises-Alberto Gonzalez-Contreras, licensed under
+> [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+If you share modified material, also indicate the changes in a reasonable
+manner appropriate to the context.
+
+This license covers the original template material, including material retained
+in operational copies. It does not automatically license independent project
+content created by users or third-party works referenced in the documentation.
+Users choose the terms for their own content and remain responsible for any
+third-party rights. The license does not require projects to be made public.
+
+When bootstrapping a project, retain `LICENSE` and this attribution notice even
+if you replace the project identity or remove the template's Git history.
+
 ## Language
 
 This repository's structure, meaning headers, field names, rules, and instructional guidance, is authored in English by default, for consistency with git conventions and cross-tool AI agent standards. The content you write inside it, project names, descriptions, decisions, and any other project-specific text, can be in any language, including Spanish, without asking.
@@ -80,6 +110,7 @@ Project_Name/
 ├── .gitignore
 ├── AGENTS.md
 ├── CLAUDE.md
+├── LICENSE
 ├── README.md
 └── SCALING.md
 ~~~

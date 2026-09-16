@@ -40,6 +40,11 @@ Do this once, only when starting a new project from the template.
    folder present), get the same short commit hash directly from the
    GitHub repository page instead, from the latest commit on its default
    branch, and use it the same way.
+   Preserve `LICENSE` and the attribution notice in `README.md` Section
+   "License". Removing the template's git history or replacing the project's
+   identity must not remove the licensing information for the original
+   template material. Independent project content is not automatically covered
+   by the template's license.
 3. Remove the cloned git history: delete the `.git` folder entirely
    (`rm -rf .git` on Linux or macOS; delete it via the file manager on
    Windows, or `rmdir /s /q .git` from PowerShell). This repository must
